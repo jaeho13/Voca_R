@@ -1,15 +1,15 @@
-import './App.css';
-import Hello from './Component/Hello';
+import DayList from "./Component/DayList";
+import Header from "./Component/Header";
+import Day from "./Component/Day";
 
 function App() {
   return (
   <div className="App">
-    <h3>props : properties</h3>
-      <Hello age={10} />
-      <Hello age={20} />
-      <Hello age={30} />
-    </div>
-  );
+    <Header />
+    <DayList />
+    <Day />
+  </div>
+  )
 }
 
 export default App;
